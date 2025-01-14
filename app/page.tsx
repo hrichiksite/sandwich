@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import TextareaAutosize from 'react-textarea-autosize'
 
-export function calculateByteSize(str: string): number {
+function calculateByteSize(str: string): number {
   return new Blob([str]).size;
 }
 
