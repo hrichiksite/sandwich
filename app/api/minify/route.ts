@@ -12,6 +12,7 @@ export async function POST(request: Request) {
           "compress": {
             "passes": 5,
             "pure_funcs": ["console.log", "console.error"],
+            "unused": false,
             "unsafe": true,
             "unsafe_arrows": true,
             "unsafe_comps": true,
@@ -31,6 +32,7 @@ export async function POST(request: Request) {
           },
           "mangle": {
             "toplevel": true,
+            "keep_fnames": true,
             "properties": {
               "regex": "^[a-zA-Z_]",
               "keep_quoted": false
