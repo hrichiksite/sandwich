@@ -1,3 +1,8 @@
+# Sandwich
+
+This project converts small HTML and JavaScript files into a QR code that can be scanned to display and execute the content. It is ideal for sharing lightweight web applications, widgets, or mini web pages that fit within the size limits of a QR code.
+
+----
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
